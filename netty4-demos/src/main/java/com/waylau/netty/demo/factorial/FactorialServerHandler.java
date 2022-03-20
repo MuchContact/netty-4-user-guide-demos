@@ -39,6 +39,7 @@ public class FactorialServerHandler extends SimpleChannelInboundHandler<BigInteg
 	protected void channelRead0(ChannelHandlerContext arg0, BigInteger arg1)
 			throws Exception {
 		// TODO Auto-generated method stub
+        messageReceived(arg0,arg1);
 		
 	}
 }
